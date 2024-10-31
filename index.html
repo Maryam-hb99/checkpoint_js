@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function Tester</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <br>
+        <h1>JavaScript Function Tester</h1>
+
+        <!-- String Manipulation Section -->
+        <section>
+            <h2>String Manipulation</h2>
+            <input type="text" id="stringInput" placeholder="Enter a string">
+            <button onclick="displayReverseString()">Reverse String</button>
+            <button onclick="displayCountCharacters()">Count Characters</button>
+            <button onclick="displayCapitalizeWords()">Capitalize Words</button>
+            <p id="stringOutput"></p>
+        </section>
+
+        <!-- Array Functions Section -->
+        <section>
+            <h2>Array Functions</h2>
+            <input type="text" id="arrayInput" placeholder="Enter numbers separated by commas">
+            <button onclick="displayFindMax()">Find Max</button>
+            <button onclick="displayFindMin()">Find Min</button>
+            <button onclick="displaySumArray()">Sum Array</button>
+            <button onclick="displayFilterArray()">Filter Even Numbers</button>
+            <p id="arrayOutput"></p>
+        </section>
+
+        <!-- Mathematical Functions Section -->
+        <section>
+            <h2>Mathematical Functions</h2>
+            <input type="number" id="mathInput" placeholder="Enter a number">
+            <button onclick="displayFactorial()">Factorial</button>
+            <button onclick="displayIsPrime()">Prime Check</button>
+            <button onclick="displayFibonacci()">Fibonacci Sequence</button>
+            <p id="mathOutput"></p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
